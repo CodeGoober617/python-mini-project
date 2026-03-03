@@ -77,7 +77,7 @@ dataEntry.place(x=80,y=100)
 
 
 # Call get_code() on click
-button = Button(base,text="Generate Code",command=get_code,width="30",height="2",bg="grey")
+button = Button(base,text="Generate Code",command=get_code,width="30",height="2",bg="blue") #,fg="white")
 button.place(x=80,y=175)
 
 base.mainloop()
